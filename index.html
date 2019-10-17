@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contato</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Formulário de contato</h1>
+      <form class="contato" action="" method="" id="contato">
+        <label>
+          <span>Nome:</span>
+          <input type="text" class="pai nome" name="nome" id="name" placeholder="Digite seu nome..." required="" />
+        </label>
+
+        <br />
+        <label>
+          <span>Celular:</span>
+          <input type="tel" class="pai tel" name="celular" id="celular" placeholder="Digite seu celular..." required=""/>
+        </label>
+
+        <br />
+
+        <label>
+          <span>Email:</span>
+          <input type="email" class="pai email" name="email" id="email" placeholder="Digite seu email..." required=""/>
+        </label>
+
+        <br />
+
+        <label>
+          <span>Assunto:</span>
+          <input type="text" class="pai assunto" name="assunto" id="subject" placeholder="Digite o assunto..." required=""/>
+        </label>
+
+        <br />
+
+        <label>
+          <span>Mensagem:</span>
+          <textarea class="message" name="feedback" id="feedback" placeholder=" Digite a mensagem..." required="" ></textarea>
+          <br />
+          <input type="submit" class="button" value="Enviar" /> <br>
+          <input type="reset" class="butreset" value="Reset"/>
+        <label/> 
+      </form>
+    </section>
+  </body>
+</html>

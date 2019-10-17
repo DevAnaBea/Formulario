@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+/*.pai {
+  margin: 4px;
+  /*
+  margin: 0px 0px 0px 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-botton: 0px;
+  border: 2px #f00 solid;
+} 
+*/
+
+.assunto {
+  margin: 0px 0px 10px 26px;
+}
+
+.email {
+  margin: 0px 0px 10px 44px;
+}
+
+.tel {
+  margin: 0px 0px 10px 32px;
+}
+
+.nome {
+  margin: 0px 0px 10px 39px;
+}
+
+.message {
+  width: 191px;
+  height: 100px;
+  margin: 0px 0px -40px 2px;
+}
+
+.button {
+  width: 90px;
+  margin: 50px 0px 0px 160px;
+}
+
+.butreset {
+  width: 80px;
+  margin: 5px 0px 0px 165px;
+}
